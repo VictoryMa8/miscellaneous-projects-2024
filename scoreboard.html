@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scoreboard.css">
+    </head>
+    <body>
+        <div id="scoreboard">
+            <div class="container1">
+                <h3>HOME</h3>
+                <div class="container2">
+                    <span id="home">0</span>
+                </div>
+                <div>
+                    <button class="btn" onclick="addHome(1)">+1</button>
+                    <button class="btn" onclick="addHome(2)">+2</button>
+                    <button class="btn" onclick="addHome(3)">+3</button>
+                </div>
+                <span id="leadHome" >Leading</span>
+            </div>
+            <div class="container1">
+                <h3>GUEST</h3>
+                <div class="container2">
+                    <span id="guest">0</span>
+                </div>
+                <div>
+                    <button class="btn" onclick="addGuest(1)">+1</button>
+                    <button class="btn" onclick="addGuest(2)">+2</button>
+                    <button class="btn" onclick="addGuest(3)">+3</button>
+                </div>
+                <span id="leadGuest" >Leading</span>
+            </div>
+        </div>
+        <script src="scoreboard.js"></script>
+    </body>
+</html>
