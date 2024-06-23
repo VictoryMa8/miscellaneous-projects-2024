@@ -1,8 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scoreboard</title>
         <link rel="stylesheet" href="scoreboard.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="silkscreen-regular">
         <div id="scoreboard">
             <div class="container1">
                 <h3>HOME</h3>
@@ -10,9 +17,9 @@
                     <span id="home">0</span>
                 </div>
                 <div>
-                    <button class="btn" onclick="addHome(1)">+1</button>
-                    <button class="btn" onclick="addHome(2)">+2</button>
-                    <button class="btn" onclick="addHome(3)">+3</button>
+                    <button class="btn silkscreen-regular" onclick="addHome(1)">+1</button>
+                    <button class="btn silkscreen-regular" onclick="addHome(2)">+2</button>
+                    <button class="btn silkscreen-regular" onclick="addHome(3)">+3</button>
                 </div>
                 <span id="leadHome" >Leading</span>
             </div>
@@ -22,9 +29,9 @@
                     <span id="guest">0</span>
                 </div>
                 <div>
-                    <button class="btn" onclick="addGuest(1)">+1</button>
-                    <button class="btn" onclick="addGuest(2)">+2</button>
-                    <button class="btn" onclick="addGuest(3)">+3</button>
+                    <button class="btn silkscreen-regular" onclick="addGuest(1)">+1</button>
+                    <button class="btn silkscreen-regular" onclick="addGuest(2)">+2</button>
+                    <button class="btn silkscreen-regular" onclick="addGuest(3)">+3</button>
                 </div>
                 <span id="leadGuest" >Leading</span>
             </div>
