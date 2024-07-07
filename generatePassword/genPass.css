@@ -20,13 +20,14 @@ p {
     padding: 30px;
 }
 
-#generate {
+#generate, #copy1, #copy2 {
     margin-top: 30px;
     background-color: #10B981;
     border: none;
     border-radius: 3px;
     padding: 5px 10px;
     color: white;
+    cursor:pointer
 }
 
 #passwords {
@@ -47,4 +48,9 @@ p {
     width: 200px;
     border-radius: 5px;
     font-size: large;
+}
+
+#copy-text {
+    text-align: center;
+    display: none; /* work in progress */
 }
